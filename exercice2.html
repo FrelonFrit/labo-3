@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <title>Exercice 2</title>
     <style>
-        
+        body{
+            background-color: cornflowerblue;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+        }
+        table {
+            margin: auto;
+            
+        }
+        td, th{
+            width: 200px;
+        }
+        table, td, th{
+            border: 2px, solid, black;
+            border-collapse: collapse;
+        }
+        tr:nth-child(even) {
+            background-color:aquamarine;
+        }
+        tr:nth-child(odd) {
+            color: white;
+        }
     </style>
 </head>
 <body>
+    <h1>Principales dépenses par trimestre d'une famille canadienne</h1>
     <table>
         <tr>        <!--  1  -->
             <th>Trimestre <br> Dépenses</th>
